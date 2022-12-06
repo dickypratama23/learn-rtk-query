@@ -10,11 +10,12 @@ function App() {
 
   const onClick = () => {
     setFilter(search)
-    setSearch("")
+    setSearch('')
   }
 
   return (
     <div className="container mx-auto w-screen px-4">
+      <div className="text-3xl font-bold p-4">IT BOOK APP</div>
       <div className="flex gap-2 justify-end py-3">
         <input
           type="text"
